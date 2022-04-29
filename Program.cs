@@ -33,7 +33,7 @@ namespace Doghouse_Bot_Beta
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            var token = "nope";
+            var token = "<YOURTOKENGOESHERE>";
 
             _client.Log += _client_Log;
             await Dogsit();
